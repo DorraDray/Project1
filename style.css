@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  header{
+    display: flex;
+    padding-left: 62px;
+    position: relative;
+    z-index: 1;
+    position: fixed;
+    height: 0px;
+    padding: 17px 62px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+}
+  .headerlink{
+  
+    padding-left: 59px;
+    padding-top: 40px;
+    display: inline;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.headerlink a {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px 25px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.headerlink a:link{
+        
+    text-decoration: none;
+    
+  }
+
+  .headerlink a:hover{
+        
+    text-decoration: underline;
+   
+  }
+  .full-height {
+    height: 100vh;
+    border: 1px solid black;
+    background-size: cover; /* how large it is in the div */
+    background-repeat: no-repeat; /* whether it should repeat */
+    background-position: center; /* where the image should sit */
+    position: relative; /* so the absolute children have something to be relative to */
+   
+    /* instead of position properties, we could give this display: flex and use justify-content and align-items to move the description around */
+  }
+  .eclipse {
+    background-image: url("./eclipse.jpg"); /* the actual image */
+    top: -81px;
+  }
+  
+  .galaxy {
+    background-image: url("./galaxy.jpg"); /* the actual image */
+    top: -81px;
+    
+   
+  }
+  .landscape {
+    background-image: url("./landscape.jpg"); /* the actual image */
+    top: -81px;
+    
+  }
+#idgalaxy{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px 25px;
+    text-align: left;
+    font-weight: bold;
+    top: 150px;
+    position: absolute;
+    padding-left: 59px;
+}
+
+.plandscape{
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 14px 25px;
+  text-align: left;
+  font-weight: bold;
+  top: 650px;
+  position: absolute;
+  padding-left: 59px;
+}
+
+.peclipse{
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 14px 25px;
+  text-align: left;
+  font-weight: bold;
+  top: 1250px;
+  position: absolute;
+  padding-left: 59px;
+}
+.p1{
+  font-size: large;
+}
+.p2{
+  font-size: 35px;
+
+}
+.button1 {
+  background-color: transparent;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 150px;
+  padding-left: 40px;
+  font-size: 20px;
+
+}
+
+.button1:hover {
+  background-color: aliceblue;;
+  color: black;
+  border: 2px solid aliceblue;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 150px;
+  padding-left: 40px;
+  font-size: 20px;
+
+}
+footer{
+  background-color: black;
+  top: 1572px;
+  position: absolute;
+  width: 100%;
+  height: 82px;
+  padding-top: 10px;
+}
+footer p{
+  color: rgb(156, 151, 151);
+  text-align: center;
+}
